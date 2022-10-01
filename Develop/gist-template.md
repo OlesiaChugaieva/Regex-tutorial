@@ -33,16 +33,16 @@ Quantifiers in Regex allow user to specify the number of occurrences to match ag
 ### Grouping Constructs
 By placing part of a regular expression inside round brackets, you can group that part of the regular expression together. Only parentheses can be used for grouping. Example: ([a-zA-Z0-9_\-\.]+).
 ### Bracket Expressions
-
+Bracket Expressions represents a character set via a list of characters enclosed by the square brackets.
 ### Character Classes
-
+Character classes match any of the enclosed characters that are found between two square brackets. For example: [abc] is a character class, meaning any character from a,b or c.
 
 ### The OR Operator
-
+The OR operator is used to match characters of the left or right of the "|" character. For example: (number1|number2), meaning number1 OR number2. It will return True if any of these expressions are True.
 ### Flags
-
+Flags are special characters that can help to change the search behavior of the regular expressions. There are many options available for that. As an example, the "g" flag(global flag) allows to test against all possible matches in a string
 ### Character Escapes
 
 ## Author: Olesia Chugaieva
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
