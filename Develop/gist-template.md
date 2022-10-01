@@ -24,6 +24,13 @@ Example email address: tomhanks123@gmail.com
 - [Character Escapes](#character-escapes)
 
 ## Regex Components
+Single characters
+Bracket Expressions
+Wild Card
+Control characters
+Escape characters
+Anchors
+Character Classes
 
 
 ### Anchors
@@ -42,7 +49,8 @@ The OR operator is used to match characters of the left or right of the "|" char
 ### Flags
 Flags are special characters that can help to change the search behavior of the regular expressions. There are many options available for that. As an example, the "g" flag(global flag) allows to test against all possible matches in a string
 ### Character Escapes
-
-## Author: Olesia Chugaieva
-
+Escape characters are always preceded by a backslash "\". For example \b allows to insert a backspace in the text where it was inserted.
+## Author: 
+Olesia Chugaieva
+Github: https://github.com/OlesiaChugaieva
 
