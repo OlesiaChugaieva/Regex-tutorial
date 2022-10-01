@@ -9,7 +9,7 @@ In this tutorial I'm going to explain how to use Regex for email input validatio
 - Domain name
 - Top-level domain
 Example email address: tomhanks123@gmail.com
-^[a-zA-Z0-9_\-\.]+[@][a-z]+[\.][a-z]{2,3}$
+^([a-zA-Z0-9_\-\.]+)[@][a-z]+[\.][a-z]{2,3}$
        
 
 ## Table of Contents
@@ -27,11 +27,11 @@ Example email address: tomhanks123@gmail.com
 
 
 ### Anchors
-Anchors in Regex matches a position before or after. The 'caret' anchor(^) matches the beginning of the text and a dollar sign anchor($) matches the end of the text.
+Anchors in Regex match a position before or after. The 'caret' anchor(^) matches the beginning of the text and a dollar sign anchor($) matches the end of the text.
 ### Quantifiers
-
+Quantifiers in Regex allow user to specify the number of occurrences to match against. In my example, {2,3} is a quantifier that has 2 as a minimum value and 3 as a maximum value, meaning that user cannot insert less than 2 and more than 3 characters after the dot.
 ### Grouping Constructs
-
+By placing part of a regular expression inside round brackets, you can group that part of the regular expression together. Only parentheses can be used for grouping. Example: ([a-zA-Z0-9_\-\.]+).
 ### Bracket Expressions
 
 ### Character Classes
