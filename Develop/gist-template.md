@@ -3,10 +3,14 @@ Regular Expression(Regex) is a language that helps to represent patterns when yo
 These patterns or symbols are going to allow users to match, search and replace text.
  
 ## Summary
-In this tutorial I'm going to explain how to use Regex for email input validation. As it helps to see if email address is spelled correctly, has no commas and spaces and contains @ in the right place.
-
-
-
+In this tutorial I'm going to explain how to use Regex for email input validation. A valid email address has 4 parts:
+- Username that accepts uppercase and lowercase letters (A-Z, a-z), digits from 0-9 and special characters
+- @ symbol 
+- Domain name
+- Top-level domain
+Example email address: tomhanks123@gmail.com
+^[a-zA-Z0-9_\-\.]+[@][a-z]+[\.][a-z]{2,3}$
+       
 
 ## Table of Contents
 
@@ -23,7 +27,7 @@ In this tutorial I'm going to explain how to use Regex for email input validatio
 
 
 ### Anchors
-
+Anchors in Regex matches a position before or after. The 'caret' anchor(^) matches the beginning of the text and a dollar sign anchor($) matches the end of the text.
 ### Quantifiers
 
 ### Grouping Constructs
