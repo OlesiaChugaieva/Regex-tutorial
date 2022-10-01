@@ -49,7 +49,11 @@ The OR operator is used to match characters of the left or right of the "|" char
 ### Flags
 Flags are special characters that can help to change the search behavior of the regular expressions. There are many options available for that. As an example, the "g" flag(global flag) allows to test against all possible matches in a string
 ### Character Escapes
-Escape characters are always preceded by a backslash "\". For example \b allows to insert a backspace in the text where it was inserted.
+Escape characters are always preceded by a backslash "\". These are used to manipulate a string
+For example:
+ \b allows to insert a backspace in the text right after it.
+ \n allows to insert a new line in the text right after it.
+
 ## Author: 
 Olesia Chugaieva
 Github: https://github.com/OlesiaChugaieva
