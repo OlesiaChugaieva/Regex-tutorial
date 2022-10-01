@@ -1,10 +1,12 @@
 # Regex [Regular expression]
-Regular Expression is a specially encoded language of character strings, used for matching text patterns.
-
-
+Regular Expression(Regex) is a language that helps to represent patterns when you are working with any type of textual input.
+These patterns or symbols are going to allow users to match, search and replace text.
+ 
 ## Summary
+In this tutorial I'm going to explain how to use Regex for email input validation. As it helps to see if email address is spelled correctly, has no commas and spaces and contains @ in the right place.
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+
+
 
 ## Table of Contents
 
